@@ -1,0 +1,44 @@
+import React, { useState } from 'react';
+
+const FavButton = ({ count }) => {
+    const [isHovered, setIsHovered] = useState(false);
+
+    return (
+        <div className=''>
+
+            <div
+                className={`flex items-center pl-2.5 ${isHovered ? 'hover:bg-red-100' : 'bg-transparent'
+                    } h-8 w-8 rounded-full  transition-all`}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
+                onClick={() => alert('Button Clicked')}
+            >
+                {isHovered ? (
+                    <>
+                        <img
+                            src="../public/img/profile/icon-fav-hover.png"
+                            alt=""
+                            className="h-3 w-4 "
+                        />
+                        <p className='text-red-600 ml-2 pl-2 text-sm'>{count}</p> {/* Adjust the margin */}
+                    </>
+                ) : (
+                    <>
+                        <img
+                            src="../public/img/profile/icon-fav.png"
+                            alt=""
+                            className="h-3 w-4"
+                        />
+                        <p className='text-gray-700 ml-2 pl-2 text-sm'>{count}</p> {/* Adjust the margin */}
+                    </>
+                )}
+            </div>
+
+
+        </div>
+
+    );
+};
+
+
+export default FavButton;
