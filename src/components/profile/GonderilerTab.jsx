@@ -19,7 +19,7 @@ const GonderilerTab = () => {
                 <div className='flex mb-6 items-center'>
                     <h4 className='text-gray-800 font-semibold hover:underline  cursor-pointer -ml-2'>Kara Paytak</h4>
                     <p className='text-sm ml-2 cursor-pointer'>@karapaytak · 21 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-48  '>
+                    <div className='flex items-center cursor-pointer ml-[228px]  '>
                         <SettingsButton />
                     </div>
 
@@ -66,7 +66,7 @@ const GonderilerTab = () => {
                 <div className='flex mb-6 items-center'>
                     <h4 className='text-gray-900 font-semibold cursor-pointer hover:underline -ml-2'>Kara Paytak</h4>
                     <p className='text-sm ml-2 cursor-pointer'>@karapaytak · 18 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-48'>
+                    <div className='flex items-center cursor-pointer ml-[228px]  '>
                         <SettingsButton />
                     </div>
 
@@ -115,7 +115,7 @@ const GonderilerTab = () => {
                 <div className='flex mb-6 items-center'>
                     <h4 className='text-gray-900 font-semibold cursor-pointer hover:underline -ml-2'>Kara Paytak</h4>
                     <p className='text-sm ml-2 cursor-pointer'>@karapaytak · 15 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-48'>
+                    <div className='flex items-center cursor-pointer ml-[228px]  '>
                         <SettingsButton />
                     </div>
 
@@ -164,7 +164,7 @@ const GonderilerTab = () => {
                 <div className='flex mb-6 items-center'>
                     <h4 className='text-gray-800 font-semibold hover:underline -ml-2'>Kara Paytak</h4>
                     <p className='text-sm ml-2'>@karapaytak · 13 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-48'>
+                    <div className='flex items-center cursor-pointer ml-[228px]  '>
                         <SettingsButton />
                     </div>
 
@@ -213,7 +213,7 @@ const GonderilerTab = () => {
                 <div className='flex mb-6 items-center'>
                     <h4 className='text-gray-800 font-semibold hover:underline -ml-2'>Kara Paytak</h4>
                     <p className='text-sm ml-2'>@karapaytak · 10 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-48'>
+                    <div className='flex items-center cursor-pointer ml-[228px]  '>
                         <SettingsButton />
                     </div>
 
@@ -267,7 +267,7 @@ const GonderilerTab = () => {
                 <div className='flex mb-6 items-center'>
                     <h4 className='text-gray-800 font-semibold hover:underline -ml-2'>Kara Paytak</h4>
                     <p className='text-sm ml-2'>@karapaytak · 9 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-48'>
+                    <div className='flex items-center cursor-pointer ml-[228px]  '>
                         <SettingsButton />
                     </div>
 

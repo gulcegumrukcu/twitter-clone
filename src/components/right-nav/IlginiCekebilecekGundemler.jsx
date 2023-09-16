@@ -3,7 +3,7 @@ function IlginiCekebilecekGundemler() {
 
     return (
         <>
-            <div className="bg-[#F7F9F9] rounded-3xl ">
+            <div className="bg-[#F7F9F9] rounded-3xl pl-1 w-[350px]">
                 <div className='flex  text-[19px] font-bold ml-5 pt-4 '>
                     <h2>İlgini çekebilecek gündemler</h2>
                 </div>
@@ -29,7 +29,7 @@ function IlginiCekebilecekGundemler() {
                         <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
-                <div className='flex'>
+                <div className='flex '>
                     <div className='ml-5 mt-3'>
                         <p className='text-[12px] text-gray-600'>Sadece Twitter'da · Gündemdekiler</p>
                         <h3 className='text-[15px] font-bold text-gray-800'>Kerkük Türk</h3>

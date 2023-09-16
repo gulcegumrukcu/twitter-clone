@@ -20,7 +20,7 @@ const MedyaTab = () => {
                 <div className='flex mb-6 items-center'>
                     <h4 className='text-gray-900 font-semibold hover:underline cursor-pointer -ml-2'>Kara Paytak</h4>
                     <p className='text-sm ml-2'>@karapaytak · 10 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-48'>
+                    <div className='flex items-center cursor-pointer justify-end ml-[228px] '>
                         <SettingsButton />
                     </div>
 

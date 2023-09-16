@@ -10,7 +10,7 @@ import FavvedButton from '../buttons/FavvedButton'
 
 const BegeniTab = () => {
     return <div className='h-[100%] '>
-        <div className='flex flex-col w-full border border-gray-100 h-[680px] flex-3 cursor-pointer'>
+        <div className='flex flex-col w-full border border-gray-100 h-[720px] flex-3 cursor-pointer'>
 
             <div className='flex flex-row '>
                 <div className='p-3'>
@@ -20,7 +20,7 @@ const BegeniTab = () => {
                 <div className='flex   mb-6 items-center'>
                     <h4 className='text-gray-900 font-semibold hover:underline cursor-pointer -ml-2'>Programmer Memes</h4>
                     <p className='text-sm  ml-1 cursor-pointer'>@iammemeloper · 28 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-20 '>
+                    <div className='flex items-center cursor-pointer justify-end ml-32 '>
                         <SettingsButton />
                     </div>
 
@@ -64,7 +64,7 @@ const BegeniTab = () => {
             </div>
 
         </div>
-        <div className='flex flex-col w-[full] border border-gray-100 h-[475px] flex-3 cursor-pointer'>
+        <div className='flex flex-col w-[full] border border-gray-100 h-[500px] flex-3 cursor-pointer'>
 
             <div className='flex flex-row '>
                 <div className='p-3'>
@@ -74,7 +74,7 @@ const BegeniTab = () => {
                 <div className='flex flex-row gap-4 mb-6 items-center'>
                     <h4 className='text-gray-900 font-semibold hover:underline cursor-pointer  -ml-2'>Felix Lee</h4>
                     <p className='text-sm flex -ml-2 cursor-pointer'>@felixleezd · 12 Ağu</p>
-                    <div className='flex items-center cursor-pointer translate-x-52 '>
+                    <div className='flex items-center cursor-pointer justify-end ml-64 '>
                         <SettingsButton />
                     </div>
 

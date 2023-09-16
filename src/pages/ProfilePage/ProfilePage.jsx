@@ -9,7 +9,7 @@ const ProfilePage = () => {
         <>
 
             <div className='  '>
-                <div className='w-[570px]  bg-white  fixed top-0 h-14 ml-[15rem] flex items-center'>
+                <div className='w-[620px]  bg-white  fixed top-0 h-14 ml-[15rem] flex items-center'>
 
                     <div className='flex'>
                         <img className='w-8 h-8 block cursor-pointer pt-1 hover:bg-gray-100 hover:rounded-full' src="./public/img/profile/icon-left.png" alt="Arrow Left Icon" />
@@ -21,7 +21,7 @@ const ProfilePage = () => {
                 </div>
             </div>
             <div className='ml-60 w-full'>
-                <div className='bg-gray-200 w-full h-60'>
+                <div className='bg-[#CFDADE] w-full h-60'>
                 </div>
 
                 <div className='flex justify-between'>

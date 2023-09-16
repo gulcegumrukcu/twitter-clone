@@ -5,7 +5,7 @@ function KimiTakipEtmeli() {
         <>
 
 
-            <div className="h-64  rounded-2xl bg-[#F7F9F9] mt-8 ">
+            <div className="h-[310px] w-[350px] ml-2 rounded-2xl bg-[#F7F9F9] mt-4 ">
                 <div className='flex  text-[19px] font-bold ml-5 mt-4 '>
                     <h2 className="mb-6 text-xl font-bold mt-4">Kimi Takip Etmeli</h2>
                 </div>
@@ -36,7 +36,9 @@ function KimiTakipEtmeli() {
                     <button className="bg-black text-white rounded-3xl w-24 h-8 text-sm font-bold">Takip Et</button>
 
                 </div>
-
+                <div>
+                    <p className='text-[#4595f4] text-sm ml-5 mt-6 pb-4'>Daha fazla göster</p>
+                </div>
             </div>
 
 

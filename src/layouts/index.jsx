@@ -18,9 +18,14 @@ export default function MainLayout() {
     if (location.pathname.includes('/ProfilePage')) {
         // If the path includes '/ProfilePage', render both components
         sidebarContent = (
-            <div className='px-4 mt-16'>
-                <MediasPhotos />
-                <BunlariBegenebilirsin />
+            <div className='px-4'>
+                <div className=' mt-12'>
+                    <MediasPhotos />
+                </div>
+                <div className='-mt-2'>
+                    <BunlariBegenebilirsin />
+                </div>
+
                 <div className='px-2'>
                     <IlginiCekebilecekGundemler />
                 </div>
@@ -29,11 +34,26 @@ export default function MainLayout() {
                 <SidebarFooter />
             </div>
         );
-    } else {
-        // Otherwise, render only KimiTakipEtmeli
-        sidebarContent = <KimiTakipEtmeli />;
     }
-
+    else if (
+        !location.pathname.includes('discover') &&
+        !location.pathname.includes('profilePage') &&
+        !location.pathname.includes('lists') &&
+        !location.pathname.includes('bookmarks') &&
+        !location.pathname.includes('verified') &&
+        !location.pathname.includes('notifications')
+    ) {
+        sidebarContent = (
+            <div className='px-4 mt-6'>
+                <PremiumSubscription />
+                <div className='px-2'>
+                    <IlginiCekebilecekGundemler />
+                </div>
+                <KimiTakipEtmeli />
+                <SidebarFooter />
+            </div>
+        );
+    }
 
     return (
         <div className="w-[1200px] mx-auto max-w-full flex mt-2 h-screen">
@@ -44,13 +64,13 @@ export default function MainLayout() {
             <div className='flex flex-1 w-full h-full'>
                 <main className='flex-1 h-full'>
                     <div className='flex h-screen '>
-                        <div className='flex  h-screen w-full '>
+                        <div className='flex  h-screen w-[850px] '>
                             <Outlet />
 
 
 
                         </div>
-                        <aside className='w-[580px] border-l border-gray-200 pl-4 '>
+                        <aside className='w-[580px] border-l border-gray-100 pl-1 '>
                             <HeaderInput />
                             {sidebarContent}
                         </aside>

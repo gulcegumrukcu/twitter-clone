@@ -4,7 +4,7 @@
 function BunlariBegenebilirsin() {
 
     return (
-        <div className='bg-gray-100 w-[320px] rounded-2xl h-[290px] my-6 ml-3 '>
+        <div className='bg-[#F7F9F9] w-[350px] rounded-2xl h-[290px] my-4 ml-3 '>
             <div className='flex  text-[19px] font-bold ml-5 pt-4 '>
                 <h2>Bunları beğenebilirsin</h2>
 
