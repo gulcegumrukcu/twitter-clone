@@ -11,7 +11,7 @@ function BunlariBegenebilirsin() {
             </div>
             <div className='block mt-4 '>
                 <div className=' flex  ml-5'>
-                    <img className='w-10 h-10 rounded-full' src="../public/img/profile/icon-murat-profile.jpeg" alt="user-profile-picture" />
+                    <img className='w-10 h-10 rounded-full' src="/img/profile/icon-murat-profile.jpeg" alt="user-profile-picture" />
                     <div className='block ml-2 -mt-0.5'>
                         <h3 className='text-gray-700 font-bold text-[15px] cursor-pointer hover:underline'>Mazaai</h3>
                         <p className='text-gray-600 text-sm'>@mazaaininki</p>
@@ -22,7 +22,7 @@ function BunlariBegenebilirsin() {
 
                 </div>
                 <div className=' flex mt-6 ml-5'>
-                    <img className='w-10 h-10 rounded-full' src="../public/img/profile/icon-atakan-profile.jpeg" alt="user-profile-picture" />
+                    <img className='w-10 h-10 rounded-full' src="/img/profile/icon-atakan-profile.jpeg" alt="user-profile-picture" />
                     <div className='block ml-2 -mt-0.5'>
                         <span className="flex">
                             <h3 className='text-gray-700 font-bold text-[15px] cursor-pointer hover:underline'>Atakan Yorulmaz</h3>
@@ -36,7 +36,7 @@ function BunlariBegenebilirsin() {
 
                 </div>
                 <div className=' flex mt-6 ml-5'>
-                    <img className='w-10 h-10 rounded-full' src="../public/img/profile/icon-berkay-profile.jpeg" alt="user-profile-picture" />
+                    <img className='w-10 h-10 rounded-full' src="/img/profile/icon-berkay-profile.jpeg" alt="user-profile-picture" />
                     <div className='block ml-2 -mt-0.5'>
                         <h3 className='text-gray-700 font-bold text-[15px] cursor-pointer hover:underline'>Berkay</h3>
                         <p className='text-gray-600 text-sm'>@hberkayozdemir</p>

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import GonderilerTab from './profile/GonderilerTab';
-import YanitlarTab from './profile/YanitlarTab';
-import OneCikanlarTab from './profile/OneCikanlarTab';
-import MedyaTab from './profile/MedyaTab';
-import BegeniTab from './profile/BegeniTab';
+import GonderilerTab from './GonderilerTab';
+import YanitlarTab from './YanitlarTab';
+import OneCikanlarTab from './OneCikanlarTab';
+import MedyaTab from './MedyaTab';
+import BegeniTab from './BegeniTab';
 
 
 const TabsContainer = () => {

@@ -16,13 +16,13 @@ const CommentButton = () => {
             >
                 {isHovered ? (
                     <img
-                        src="./public/img/profile/icon-comment-hover.png"
+                        src="/img/profile/icon-comment-hover.png"
                         alt=""
                         className="h-3.5 w-3.5"
                     />
                 ) : (
                     <img
-                        src="./public/img/profile/icon-comment.png"
+                        src="/img/profile/icon-comment.png"
                         alt=""
                         className="h-3.5 w-3.5"
                     />

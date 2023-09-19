@@ -10,11 +10,11 @@ import FavvedButton from '../buttons/FavvedButton'
 
 const BegeniTab = () => {
     return <div className='h-[100%] '>
-        <div className='flex flex-col w-full border border-gray-100 h-[720px] flex-3 cursor-pointer'>
+        <div className='flex flex-col w-full border hover:bg-[#F7F7F7] border-gray-100 h-[720px] flex-3 cursor-pointer'>
 
             <div className='flex flex-row '>
                 <div className='p-3'>
-                    <img className='w-11 h-11 rounded-full ml-2 ' src="./public/img/profile/icon-programmer-profile.jpeg" alt="" />
+                    <img className='w-11 h-11 rounded-full ml-2 ' src="/img/profile/icon-programmer-profile.jpeg" alt="" />
                 </div>
 
                 <div className='flex   mb-6 items-center'>
@@ -31,7 +31,7 @@ const BegeniTab = () => {
                 <p className='text-sm ml-[68px] -mt-8 pr-2 mb-1' >"I am a PHP developer"</p>
                 <p className='text-sm text-[#4595f4] font-medium ml-[68px] cursor-pointer hover:underline'>#ProgrammerMeme</p>
                 <div className=' items-center flex justify-center ml-8 mb-2 mt-2'>
-                    <img className=' w-[87%]  rounded-xl cursor-pointor' src="./public/img/profile/image-meme-twitter.jpeg" alt="" />
+                    <img className=' w-[87%]  rounded-xl cursor-pointor' src="/img/profile/image-meme-twitter.jpeg" alt="" />
                 </div>
 
 
@@ -64,11 +64,11 @@ const BegeniTab = () => {
             </div>
 
         </div>
-        <div className='flex flex-col w-[full] border border-gray-100 h-[500px] flex-3 cursor-pointer'>
+        <div className='flex flex-col w-[full] border hover:bg-[#F7F7F7] border-gray-100 h-[500px] flex-3 cursor-pointer'>
 
             <div className='flex flex-row '>
                 <div className='p-3'>
-                    <img className='w-11 h-11 rounded-full ml-2 ' src="./public/img/profile/icon-felix-profile.jpeg" alt="" />
+                    <img className='w-11 h-11 rounded-full ml-2 ' src="/img/profile/icon-felix-profile.jpeg" alt="" />
                 </div>
 
                 <div className='flex flex-row gap-4 mb-6 items-center'>
@@ -86,7 +86,7 @@ const BegeniTab = () => {
                 </p>
 
                 <div className=' items-center flex justify-center ml-8 mb-2 mt-2'>
-                    <img className=' w-[87%]  rounded-xl' src="./public/img/profile/spongebob.gif" alt="" />
+                    <img className=' w-[87%]  rounded-xl' src="/img/profile/spongebob.gif" alt="" />
                 </div>
 
 

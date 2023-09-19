@@ -1,5 +1,5 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
-import classNames from "classNames"
+import classNames from "classnames"
 
 function LeftNavigation() {
 
@@ -10,7 +10,7 @@ function LeftNavigation() {
         <aside className="w-[250px]  h-full flex-shrink-0 flex flex-col  border-r border-gray-200  gap-1.5 ">
 
             <a href="/">
-                <img className='w-7 h-[26px] mb-3 cursor-pointer flex mt-2 bg-white ml-4' src="/public/img/navigation/icon-logo.png" alt="" />
+                <img className='w-7 h-[26px] mb-3 cursor-pointer flex mt-2 bg-white ml-4' src="/img/navigation/icon-logo.png" alt="" />
             </a>
 
             <NavLink className="text-sm group" to="/">
@@ -19,10 +19,10 @@ function LeftNavigation() {
                         "font-bold": isActive
                     })}>
                         {!isActive && (
-                            <img src="/public/img/navigation/icon-home.png" alt="" />
+                            <img src="/img/navigation/icon-home.png" alt="" />
                         )}
                         {isActive && (
-                            <img src="/public/img/navigation/icon-home-hovered.png" alt="" />
+                            <img src="/img/navigation/icon-home-hovered.png" alt="" />
                         )}
 
                         <div className='pt-0.5 -ml-1'>
@@ -38,10 +38,10 @@ function LeftNavigation() {
                         "font-bold": isActive
                     })}>
                         {!isActive && (
-                            <img src='/public/img/navigation/icon-discover.png' alt='' />
+                            <img src='/img/navigation/icon-discover.png' alt='' />
                         )}
                         {isActive && (
-                            <img src='/public/img/navigation/icon-discover-hovered.png' alt='' />
+                            <img src='/img/navigation/icon-discover-hovered.png' alt='' />
                         )}
                         Keşfet
                     </div>
@@ -53,10 +53,10 @@ function LeftNavigation() {
                         "font-bold": isActive
                     })}>
                         {!isActive && (
-                            <img src="/public/img/navigation/icon-notif.png" alt="" />
+                            <img src="/img/navigation/icon-notif.png" alt="" />
                         )}
                         {isActive && (
-                            <img src="/public/img/navigation/icon-notif-hovered.png" alt="" />
+                            <img src="/img/navigation/icon-notif-hovered.png" alt="" />
                         )}
                         Bildirimler
                     </div>
@@ -68,10 +68,10 @@ function LeftNavigation() {
                         "font-bold": isActive
                     })}>
                         {!isActive && (
-                            <img src='/public/img/navigation/icon-message.png' alt='' />
+                            <img src='/img/navigation/icon-message.png' alt='' />
                         )}
                         {isActive && (
-                            <img src='/public/img/navigation/icon-message-hovered.png' alt='' />
+                            <img src='/img/navigation/icon-message-hovered.png' alt='' />
                         )}
                         Mesajlar
                     </div>
@@ -83,10 +83,10 @@ function LeftNavigation() {
                         "font-bold": isActive
                     })}>
                         {!isActive && (
-                            <img src='/public/img/navigation/icon-list.png' alt="" />
+                            <img src='/img/navigation/icon-list.png' alt="" />
                         )}
                         {isActive && (
-                            <img src='/public/img/navigation/icon-list-hovered.png' alt="" />
+                            <img src='/img/navigation/icon-list-hovered.png' alt="" />
                         )}
                         Listeler
                     </div>
@@ -98,10 +98,10 @@ function LeftNavigation() {
                         "font-bold": isActive
                     })}>
                         {!isActive && (
-                            <img className='w-[21px] h-[21px]' src="/public/img/navigation/icon-logo.png" alt="" />
+                            <img className='w-[21px] h-[21px]' src="/img/navigation/icon-logo.png" alt="" />
                         )}
                         {isActive && (
-                            <img className='w-[21px] h-[21px]' src="/public/img/navigation/icon-logo.png" alt="" />
+                            <img className='w-[21px] h-[21px]' src="/img/navigation/icon-logo.png" alt="" />
                         )}
                         Onaylanmış
                     </div>
@@ -113,10 +113,10 @@ function LeftNavigation() {
                         "font-bold": isActive
                     })}>
                         {!isActive && (
-                            <img src='/public/img/navigation/icon-profile.png' alt='' />
+                            <img src='/img/navigation/icon-profile.png' alt='' />
                         )}
                         {isActive && (
-                            <img src='/public/img/navigation/icon-profile-hovered.png' alt='' />
+                            <img src='/img/navigation/icon-profile-hovered.png' alt='' />
                         )}
                         Profil
                     </div>
@@ -125,7 +125,7 @@ function LeftNavigation() {
 
             <div className="flex mt-1">
                 <button className="text-[20px] text-gray-900 hover:bg-gray-200 rounded-3xl px-4  flex items-center h-[50px]">
-                    <img src='/public/img/navigation/icon-more.png' className='w-6 h-6' />
+                    <img src='/img/navigation/icon-more.png' className='w-6 h-6' />
                     <span className='ml-4'>Daha Fazla</span>
                 </button>
             </div>
@@ -135,12 +135,12 @@ function LeftNavigation() {
             </div>
             <div className="flex  ">
                 <div className="flex fixed bottom-2 -ml-4 hover.bg-gray-100 w-[275px] h-16 rounded-full cursor-pointer justify-center items-center  ">
-                    <img className="w-10 h-10 rounded-full " src="/public/img/navigation/profile-picture.jpeg" alt="" />
+                    <img className="w-10 h-10 rounded-full " src="/img/navigation/profile-picture.jpeg" alt="" />
                     <div className="ml-3 ">
                         <h3 className="font-semibold">Kara Paytak</h3>
                         <p className="text-sm">@karapaytak</p>
                     </div>
-                    <img className="w-4 h-4 ml-12" src="/public/img/navigation/icon-settings.png" alt="" />
+                    <img className="w-4 h-4 ml-12" src="/img/navigation/icon-settings.png" alt="" />
                 </div>
             </div>
 

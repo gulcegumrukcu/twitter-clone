@@ -16,7 +16,7 @@ const InsightButton = ({ count }) => {
                 {isHovered ? (
                     <>
                         <img
-                            src="../public/img/profile/icon-insight-hover.png"
+                            src="/img/profile/icon-insight-hover.png"
                             alt=""
                             className="h-3 w-4 "
                         />
@@ -25,7 +25,7 @@ const InsightButton = ({ count }) => {
                 ) : (
                     <>
                         <img
-                            src="../public/img/profile/icon-insight.png"
+                            src="/img/profile/icon-insight.png"
                             alt=""
                             className="h-3 w-4"
                         />

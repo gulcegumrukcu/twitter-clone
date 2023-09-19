@@ -16,7 +16,7 @@ const FavButton = ({ count }) => {
                 {isHovered ? (
                     <>
                         <img
-                            src="../public/img/profile/icon-fav-hover.png"
+                            src="/img/profile/icon-fav-hover.png"
                             alt=""
                             className="h-3 w-4 "
                         />
@@ -25,7 +25,7 @@ const FavButton = ({ count }) => {
                 ) : (
                     <>
                         <img
-                            src="../public/img/profile/icon-fav.png"
+                            src="/img/profile/icon-fav.png"
                             alt=""
                             className="h-3 w-4"
                         />

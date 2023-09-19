@@ -16,7 +16,7 @@ const RtButton = ({ count }) => {
                 {isHovered ? (
                     <>
                         <img
-                            src="../public/img/profile/icon-rt-hover.png"
+                            src="/img/profile/icon-rt-hover.png"
                             alt=""
                             className="h-3 w-4 "
                         />
@@ -25,7 +25,7 @@ const RtButton = ({ count }) => {
                 ) : (
                     <>
                         <img
-                            src="../public/img/profile/icon-rt.png"
+                            src="/img/profile/icon-rt.png"
                             alt=""
                             className="h-3 w-4"
                         />

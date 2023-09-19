@@ -16,13 +16,13 @@ const ShareButton = () => {
             >
                 {isHovered ? (
                     <img
-                        src="../public/img/profile/icon-share-hover.png"
+                        src="/img/profile/icon-share-hover.png"
                         alt=""
                         className="h-4 w-4"
                     />
                 ) : (
                     <img
-                        src="../public/img/profile/icon-share.png"
+                        src="/img/profile/icon-share.png"
                         alt=""
                         className="h-4 w-4"
                     />

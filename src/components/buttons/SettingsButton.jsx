@@ -16,7 +16,7 @@ const SettingsButton = ({ }) => {
                 {isHovered ? (
 
                     <img
-                        src="../public/img/profile/icon-settings-hover.png"
+                        src="/img/profile/icon-settings-hover.png"
                         alt=""
                         className="h-1 w-3.5"
                     />
@@ -25,7 +25,7 @@ const SettingsButton = ({ }) => {
                 ) : (
 
                     <img
-                        src="../public/img/profile/icon-settings.png"
+                        src="/img/profile/icon-settings.png"
                         alt=""
                         className="h-3.5 w-3.5"
                     />

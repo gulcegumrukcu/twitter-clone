@@ -15,7 +15,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-24 mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -26,7 +26,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-24 mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex '>
@@ -37,7 +37,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-[74px] mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -48,7 +48,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-24 mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -59,7 +59,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-[140px] mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -70,7 +70,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-[94px] mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -81,7 +81,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-[152px] mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -92,7 +92,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-[152px] mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -103,7 +103,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-[152px] mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
                 </div>
                 <div className='flex'>
@@ -114,7 +114,7 @@ function IlginiCekebilecekGundemler() {
 
                     </div>
                     <div className='flex items-center ml-[74px] mt-3'>
-                        <img className='w-4 h-4' src="/public/img/home/icon-settings.png" alt="" />
+                        <img className='w-4 h-4' src="/img/home/icon-settings.png" alt="" />
                     </div>
 
                 </div>
