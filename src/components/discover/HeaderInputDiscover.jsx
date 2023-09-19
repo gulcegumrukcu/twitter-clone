@@ -12,7 +12,7 @@ function HeaderInputDiscover() {
 
                     <input placeholder="Ara" className="bg-[#F0F3F5] placeholder:pl-8 placeholder:text-gray-800 focus:border-[#62a1ff] px-4 w-[500px] rounded-full h-10" type="text" />
                     <div className="hover:bg-[#F0F3F5] p-2 mr-4 rounded-full cursor-pointer items-center flex justify-center">
-                        <img className="w-5 h-5  " src="/public/img/discover/icon-discover-header.png" alt="" />
+                        <img className="w-5 h-5  " src="/img/discover/icon-discover-header.png" alt="" />
                     </div>
 
                 </div>
