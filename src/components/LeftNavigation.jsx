@@ -1,6 +1,6 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import classNames from "classnames"
-import VerifiedButton from './buttons/verifiedButton';
+import VerifiedButton from './buttons/VerifiedButton';
 import GonderButton from './buttons/GonderButton';
 
 function LeftNavigation() {
