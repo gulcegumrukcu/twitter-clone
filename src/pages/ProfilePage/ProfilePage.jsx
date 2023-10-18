@@ -9,7 +9,7 @@ const ProfilePage = () => {
         <>
 
             <div className='  '>
-                <div className='w-[620px]  bg-white  fixed top-0 h-14 ml-[15rem] flex items-center'>
+                <div className='w-[620px]  bg-white  fixed top-0 h-14 ml-[15rem] z-[1]  flex items-center'>
 
                     <div className='flex '>
                         <img className='w-6 h-8 block cursor-pointer pt-2 hover:bg-gray-100 hover:rounded-full' src="/img/profile/icon-left.png" alt="Arrow Left Icon" />
@@ -24,10 +24,22 @@ const ProfilePage = () => {
                 <div className='bg-[#CFDADE] w-full h-60'>
                 </div>
 
-                <div className='flex justify-between'>
-                    <img className='w-36 h-36 translate-x-6 -translate-y-14 rounded-full cursor-pointer' src="/img/profile/profile-picture.jpeg" alt="" />
-                    <button className='border rounded-3xl h-9 w-36 text-[15px] font-[600] mr-6 mt-3'>Profili düzenle</button>
+                <div className='flex justify-between items-center'>
+                    <div className='-mt-20 mb-12 ml-8'>
+                        <img
+                            className='w-36 h-36 rounded-full cursor-pointer'
+                            src="/img/profile/profile-picture.jpeg"
+                            alt=""
+                        />
+                    </div>
+
+
+
+
+
+                    <button className='border rounded-3xl h-9 w-36 text-[15px] font-[600]'>Profili düzenle</button>
                 </div>
+
 
                 <div className='px-4' >
                     <h2 className='text-xl font-bold ml-4 -mt-10'>Kara Paytak</h2>
@@ -54,7 +66,7 @@ const ProfilePage = () => {
                 </span>
 
 
-            </div>
+            </div >
         </>
 
 

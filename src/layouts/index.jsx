@@ -84,7 +84,7 @@ export default function MainLayout() {
         )
     } else if (location.pathname.includes('/discover')) {
         sidebarContent = (
-            <div className='px-4 fixed'>
+            <div className='px-4 '>
                 <KimiTakipEtmeli />
 
 
@@ -123,7 +123,10 @@ export default function MainLayout() {
     else if (location.pathname.includes('/lists')) {
         sidebarContent = (
             <>
-                <HeaderInput />
+                <div className='z-0 '>
+                    <HeaderInput />
+
+                </div>
                 <div className='px-4 pt-16'>
                     <div className='pl-2'>
                         <IlginiCekebilecekGundemler />
@@ -163,8 +166,8 @@ export default function MainLayout() {
 
 
     return (
-        <div className="w-[1200px] mx-auto max-w-full flex mt-2 h-screen">
-            <div className='fixed top-0 bg-white h-full'>
+        <div className="w-[1200px]  mx-auto max-w-full flex mt-2 h-auto">
+            <div className='fixed top-0  bg-white h-full'>
                 <LeftNavigation />
             </div>
 

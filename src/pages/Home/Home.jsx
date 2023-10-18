@@ -9,7 +9,7 @@ const Home = () => {
     <>
 
       <div className='  '>
-        <div className='w-[620px]  bg-white  fixed top-0 h-32 ml-[15rem] flex justify-start items-start'>
+        <div className='w-[620px]  bg-white fixed top-0 h-32 ml-[15rem] flex justify-start items-start'>
 
           <div className='flex '>
 

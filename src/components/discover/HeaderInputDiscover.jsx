@@ -7,7 +7,7 @@ function HeaderInputDiscover() {
 
             <header className="w-full">
 
-                <div className=' w-[608px] bg-white fixed top-0 pl-6 h-[50px]  flex items-center justify-between'>
+                <div className=' w-[608px] bg-white pl-6 h-[50px]  flex items-center justify-between'>
 
 
                     <input placeholder="Ara" className="bg-[#F0F3F5] placeholder:pl-8 placeholder:text-gray-800 focus:border-[#62a1ff] px-4 w-[500px] rounded-full h-10" type="text" />

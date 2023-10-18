@@ -9,7 +9,7 @@ import HeaderInputDiscover from '../../components/discover/HeaderInputDiscover';
 const Discover = () => {
     return (
         <>
-            <div className=' bg-white  fixed top-0 h-12 ml-[15rem] flex justify-start items-start'>
+            <div className=' bg-white z-1 fixed top-0 h-12 ml-[15rem] flex justify-start items-start'>
                 <div className=''>
                     < HeaderInputDiscover />
 

@@ -6,7 +6,6 @@ import Lists from './pages/Lists/Lists'
 import Messages from './pages/Messages/Messages'
 import Notifications from './pages/Notifications/Notifications'
 import ProfilePage from './pages/ProfilePage/ProfilePage'
-import Verified from './pages/Verified/Verified'
 import MainLayout from './layouts'
 
 
@@ -46,11 +45,6 @@ const routes = createBrowserRouter([
             {
                 path: 'profilePage',
                 element: <ProfilePage />,
-
-            },
-            {
-                path: 'verified',
-                element: <Verified />,
 
             }
         ]

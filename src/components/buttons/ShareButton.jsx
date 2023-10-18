@@ -4,7 +4,7 @@ const ShareButton = () => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <div className="relative inline-block">
+        <div className=" inline-block">
             <button
                 className={`flex justify-center items-center ${isHovered
                     ? ' hover:bg-blue-100'

@@ -5,7 +5,7 @@ function KimiTakipEtmeli() {
         <>
 
 
-            <div className="h-[310px] w-[350px] ml-2 rounded-2xl bg-[#F7F9F9] mt-4 ">
+            <div className="h-[310px] w-[350px] ml-2  rounded-2xl bg-[#F7F9F9] mt-4 ">
                 <div className='flex  text-[19px] font-bold ml-5 mt-4 '>
                     <h2 className="mb-6 text-xl font-bold mt-4">Kimi Takip Etmeli</h2>
                 </div>

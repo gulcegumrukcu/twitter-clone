@@ -191,7 +191,7 @@ function MessageInterface() {
 
                 {/* Input for typing messages */}
                 {selectedMessage && (
-                    <div className="flex fixed bg-white bottom-0 w-[40%] justify-start items-start ">
+                    <div className="flex fixed bg-white bottom-0 w-[565px] justify-start items-start ">
 
                         <div className='rounded-full p-2 border flex w-full border-gray-300 bg-gray-100'>
                             <div className="w-8 h-8 rounded-full items-center justify-center flex cursor-pointer hover:bg-blue-100 ">
@@ -207,7 +207,7 @@ function MessageInterface() {
                             <input
                                 type="text"
                                 placeholder="Yeni bir mesaja başla"
-                                className="w-[70%] rounded-full placeholder:text-gray-900 placeholder:font-normal pl-2 placeholder:text-sm focus:outline-none ml-auto bg-gray-100"
+                                className="w-[70%] rounded-full placeholder:text-gray-900 placeholder:font-normal  placeholder:text-sm focus:outline-none ml-auto bg-gray-100"
                                 value={newMessage}
                                 onChange={(e) => setNewMessage(e.target.value)}
                             />

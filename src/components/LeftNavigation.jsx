@@ -1,5 +1,7 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import classNames from "classnames"
+import VerifiedButton from './buttons/verifiedButton';
+import GonderButton from './buttons/GonderButton';
 
 function LeftNavigation() {
 
@@ -9,7 +11,7 @@ function LeftNavigation() {
 
         <aside className="w-[250px]  h-full flex-shrink-0 flex flex-col  border-r border-gray-200  gap-1.5 ">
 
-            <a href="/">
+            <a className='im' href="/">
                 <img className='w-7 h-[26px] mb-3 cursor-pointer flex mt-2 bg-white ml-4' src="/img/navigation/icon-logo.png" alt="" />
             </a>
 
@@ -92,21 +94,9 @@ function LeftNavigation() {
                     </div>
                 )}
             </NavLink>
-            <NavLink className="text-sm group" to="/verified">
-                {({ isActive }) => (
-                    <div className={classNames("h-[50px] transition-colors px-4 inline-flex rounded-full text-xl items-center gap-5 group-hover:bg-gray-200 ", {
-                        "font-bold": isActive
-                    })}>
-                        {!isActive && (
-                            <img className='w-[21px] h-[21px]' src="/img/navigation/icon-logo.png" alt="" />
-                        )}
-                        {isActive && (
-                            <img className='w-[21px] h-[21px]' src="/img/navigation/icon-logo.png" alt="" />
-                        )}
-                        Onaylanmış
-                    </div>
-                )}
-            </NavLink>
+            <div className="flex h-8 text-sm group mb-4 ">
+                <VerifiedButton />
+            </div>
             <NavLink className="text-sm group" to="/ProfilePage">
                 {({ isActive }) => (
                     <div className={classNames("h-[50px] transition-colors px-4 inline-flex rounded-full text-xl items-center gap-5 group-hover:bg-gray-200", {
@@ -131,10 +121,10 @@ function LeftNavigation() {
             </div>
 
             <div className="flex justify-start ">
-                <button className="bg-[#478cf3] text-white text-lg px-20 py-3 mt-8 rounded-full font-bold ">Gönder</button>
+                <GonderButton />
             </div>
             <div className="flex  ">
-                <div className="flex fixed bottom-2 -ml-4 hover.bg-gray-100 w-[275px] h-16 rounded-full cursor-pointer justify-center items-center  ">
+                <div className="flex fixed -z-10 bottom-2 -ml-4 hover.bg-gray-100 w-[275px] h-16 rounded-full cursor-pointer justify-center items-center  ">
                     <img className="w-10 h-10 rounded-full " src="/img/navigation/profile-picture.jpeg" alt="" />
                     <div className="ml-3 ">
                         <h3 className="font-semibold">Kara Paytak</h3>
